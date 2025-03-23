@@ -13,7 +13,7 @@ local baseButton = hotbarFrame:FindFirstChild("1").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Name 1"
+ToolName.Text = "Imaginary Kick"
 
 
 local player = game.Players.LocalPlayer
@@ -91,7 +91,7 @@ local function findGuiAndSetText()
 
             if textLabel then
 
-                textLabel.Text = "Ult Name"
+                textLabel.Text = "FINALLY OUT OF THAT BODY!!"
 
             end
 
@@ -136,7 +136,7 @@ end
 -- First move
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://13073745835"
+AnimAnim.AnimationId = "rbxassetid://17838006839"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
