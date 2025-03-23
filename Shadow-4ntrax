@@ -136,7 +136,7 @@ end
 -- First move
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://18182425133"
+AnimAnim.AnimationId = "rbxassetid://18897119503"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
