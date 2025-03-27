@@ -425,7 +425,7 @@ end
 -- Wallcombo
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://18903642853"
+AnimAnim.AnimationId = "rbxassetid://18181589384"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -439,7 +439,7 @@ Anim:AdjustSpeed(0)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(1.75)
+Anim:AdjustSpeed(0.7)
 
 
     end
