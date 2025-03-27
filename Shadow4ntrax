@@ -477,7 +477,7 @@ end
 -- death counter
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://16737255386"
+AnimAnim.AnimationId = "rbxassetid://18903642853"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -529,7 +529,7 @@ end
 -- ult anim
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://15958227342"
+AnimAnim.AnimationId = "rbxassetid://17861844708"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
