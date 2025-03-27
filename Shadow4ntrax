@@ -49,7 +49,7 @@ local baseButton = hotbarFrame:FindFirstChild("3").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Name 3"
+ToolName.Text = "Take This Punch"
 
 
 local player = game.Players.LocalPlayer
@@ -67,7 +67,7 @@ local baseButton = hotbarFrame:FindFirstChild("4").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Name 4"
+ToolName.Text = "Sending Up"
 
 
 local Players = game:GetService("Players")
@@ -263,7 +263,7 @@ end
 -- third move
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://113166426814229"
+AnimAnim.AnimationId = "rbxassetid://111364629436380"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -323,12 +323,12 @@ end
 -- fourth move (last move)
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://116753755471636"
+AnimAnim.AnimationId = "rbxassetid://76530443909428"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
 
-local startTime = 0.1
+local startTime = 4.2
 
 
 Anim:Play()
