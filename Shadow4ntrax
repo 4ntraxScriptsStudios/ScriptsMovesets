@@ -263,7 +263,7 @@ end
 -- third move
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://111364629436380"
+AnimAnim.AnimationId = "rbxassetid://128022763591042"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -328,7 +328,7 @@ AnimAnim.AnimationId = "rbxassetid://76530443909428"
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
 
-local startTime = 4.2
+local startTime = 4.1
 
 
 Anim:Play()
