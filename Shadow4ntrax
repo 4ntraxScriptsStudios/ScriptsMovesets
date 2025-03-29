@@ -154,6 +154,12 @@ Anim:AdjustSpeed(1)
 
 wait(0.7)
 
+local soundeffect = Instance.new("Sound")
+                soundeffect.SoundId = "rbxassetid://18179518411"
+                soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+                soundeffect:Play()
+                soundeffect.Volume = 4
+
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local sowhat = game:GetService("ReplicatedStorage").Resources.UFW.vfx.PunchFX.Wind.wind.l
 local Vfx = sowhat:Clone()
