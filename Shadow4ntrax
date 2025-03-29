@@ -310,6 +310,23 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1.0)
 
+wait(0.4)
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local sowhat = game:GetService("ReplicatedStorage").Resources.KJThrow.Toss.Toss.Attachment
+local Vfx = sowhat:Clone()
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+ 
+Vfx.Parent = character:WaitForChild("Right Arm")
+ 
+for _, child in ipairs(Vfx:GetChildren()) do
+        child.Color = ColorSequence.new(Color3.new(1, 1, 1))
+    if child:IsA("ParticleEmitter") then
+        child:Emit(1) -- Emit 1 particle
+    end
+end 
+
 
 delay(0.8, function()
 
