@@ -152,6 +152,37 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1)
 
+wait(1)
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local sowhat = game:GetService("ReplicatedStorage").Resources.UFW.vfx.PunchFX.Wind.wind.l
+local Vfx = sowhat:Clone()
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+ 
+Vfx.Parent = character:WaitForChild("HumanoidRootPart")
+ 
+for _, child in ipairs(Vfx:GetChildren()) do
+        child.Color = ColorSequence.new(Color3.new(1, 1, 1))
+    if child:IsA("ParticleEmitter") then
+        child:Emit(1) -- Emit 1 particle
+    end
+end
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local sowhat = game:GetService("ReplicatedStorage").Resources.UFW.vfx.PunchFX.Wind.wind.r
+local Vfx = sowhat:Clone()
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+ 
+Vfx.Parent = character:WaitForChild("HumanoidRootPart")
+ 
+for _, child in ipairs(Vfx:GetChildren()) do
+        child.Color = ColorSequence.new(Color3.new(1, 1, 1))
+    if child:IsA("ParticleEmitter") then
+        child:Emit(1) -- Emit 1 particle
+    end
+end
 
     end
 
@@ -545,10 +576,6 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1)
 
-    end
-
-end
-
 wait(1)
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -594,6 +621,10 @@ for _, child in ipairs(Vfx:GetChildren()) do
     if child:IsA("ParticleEmitter") then
         child:Emit(1) -- Emit 1 particle
     end
+end
+
+    end
+
 end
 
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
