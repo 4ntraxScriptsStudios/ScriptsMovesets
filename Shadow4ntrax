@@ -325,14 +325,7 @@ for _, child in ipairs(Vfx:GetChildren()) do
     if child:IsA("ParticleEmitter") then
         child:Emit(1) -- Emit 1 particle
     end
-end 
-
-
-delay(0.8, function()
-
-    Anim:Stop()
-
-end)
+end
 
 
     end
