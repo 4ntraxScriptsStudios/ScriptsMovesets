@@ -814,19 +814,16 @@ end
 -- Downslam anim
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://18716022049"
+AnimAnim.AnimationId = "rbxassetid://12296113986"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
 
-local startTime = 1.2
-
-
-wait(0.2)
+local startTime = 1.5
 
 Anim:Play()
 
-Anim:AdjustSpeed(0.10)
+Anim:AdjustSpeed(1)
 
 Anim.TimePosition = startTime
 
