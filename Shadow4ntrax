@@ -152,7 +152,7 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1)
 
-wait(0.7)
+wait(0.6)
 
 local soundeffect = Instance.new("Sound")
                 soundeffect.SoundId = "rbxassetid://18179518411"
