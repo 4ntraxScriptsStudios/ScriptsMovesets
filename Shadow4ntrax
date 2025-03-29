@@ -762,7 +762,7 @@ end
 -- Uppercut anim
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://17325254223"
+AnimAnim.AnimationId = "rbxassetid://18179181663"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -814,12 +814,12 @@ end
 -- Downslam anim
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://113166426814229"
+AnimAnim.AnimationId = "rbxassetid://18716022049"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
 
-local startTime = 0.1120
+local startTime = 1.8
 
 
 wait(0.2)
