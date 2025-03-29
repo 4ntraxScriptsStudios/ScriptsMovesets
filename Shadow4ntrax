@@ -152,7 +152,7 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1)
 
-wait(1)
+wait(0.7)
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local sowhat = game:GetService("ReplicatedStorage").Resources.UFW.vfx.PunchFX.Wind.wind.l
