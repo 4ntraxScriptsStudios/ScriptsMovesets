@@ -586,7 +586,7 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1)
 
-wait(1)
+wait(0.2)
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local sowhat = game:GetService("ReplicatedStorage").Resources.UFW.vfx.splode.splode.PointAtt
