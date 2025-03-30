@@ -347,6 +347,12 @@ Anim:AdjustSpeed(1.0)
 
 wait(0.4)
 
+local soundeffect = Instance.new("Sound")
+                soundeffect.SoundId = "rbxassetid://103336317917939"
+                soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+                soundeffect:Play()
+                soundeffect.Volume = 4
+
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local sowhat = game:GetService("ReplicatedStorage").Resources.KJThrow.Toss.Toss.Attachment
 local Vfx = sowhat:Clone()
