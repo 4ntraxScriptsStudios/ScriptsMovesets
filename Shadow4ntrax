@@ -479,7 +479,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://16737255386"
+AnimAnim.AnimationId = "rbxassetid://18897118507"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -488,12 +488,27 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(0.5)
+Anim:AdjustSpeed(1)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(0.4)
+Anim:AdjustSpeed(1)
 
+wait(0.3)
+
+local soundeffect = Instance.new("Sound")
+                soundeffect.SoundId = "rbxassetid://79002241996642"
+                soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+                soundeffect:Play()
+                soundeffect.Volume = 2
+
+wait(0.8)
+
+local soundeffect = Instance.new("Sound")
+                soundeffect.SoundId = "rbxassetid://92438136982509"
+                soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+                soundeffect:Play()
+                soundeffect.Volume = 8
 
     end
 
