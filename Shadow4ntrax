@@ -664,7 +664,11 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1)
 
-wait(0.2)
+local soundeffect = Instance.new("Sound")
+                soundeffect.SoundId = "rbxassetid://97496307405716"
+                soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+                soundeffect:Play()
+                soundeffect.Volume = 4
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local sowhat = game:GetService("ReplicatedStorage").Resources.UFW.vfx.splode.splode.PointAtt
