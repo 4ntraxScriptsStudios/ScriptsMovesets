@@ -427,6 +427,22 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1)
 
+local soundeffect = Instance.new("Sound")
+                soundeffect.SoundId = "rbxassetid://107060611784418"
+                soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+                soundeffect:Play()
+                soundeffect.Volume = 4
+wait(0.3)
+local soundeffect = Instance.new("Sound")
+                soundeffect.SoundId = "rbxassetid://147722227"
+                soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+                soundeffect:Play()
+                soundeffect.Volume = 4
+local soundeffect = Instance.new("Sound")
+                soundeffect.SoundId = "rbxassetid://7768888198"
+                soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+                soundeffect:Play()
+                soundeffect.Volume = 4
 
     end
 
