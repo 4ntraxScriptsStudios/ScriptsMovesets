@@ -152,7 +152,7 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1)
 
-wait(0.2)
+wait(0.3)
 
     Anim:Stop()
 
@@ -174,7 +174,7 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1)
 
-wait(0.2)
+wait(0.3)
 
     Anim:Stop()
 
@@ -196,7 +196,7 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1)
 
-wait(0.2)
+wait(0.1)
 
     Anim:Stop()
 
