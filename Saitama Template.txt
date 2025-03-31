@@ -13,7 +13,7 @@ local baseButton = hotbarFrame:FindFirstChild("1").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Name 1"
+ToolName.Text = "Corrupted Fists"
 
 
 local player = game.Players.LocalPlayer
@@ -31,7 +31,7 @@ local baseButton = hotbarFrame:FindFirstChild("2").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Name 2"
+ToolName.Text = "Burst Of Corruption"
 
 
 local player = game.Players.LocalPlayer
@@ -49,7 +49,7 @@ local baseButton = hotbarFrame:FindFirstChild("3").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Name 3"
+ToolName.Text = "Hand Push"
 
 
 local player = game.Players.LocalPlayer
@@ -67,7 +67,7 @@ local baseButton = hotbarFrame:FindFirstChild("4").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Name 4"
+ToolName.Text = "Go on Air!"
 
 
 local Players = game:GetService("Players")
@@ -91,7 +91,7 @@ local function findGuiAndSetText()
 
             if textLabel then
 
-                textLabel.Text = "Ult Name"
+                textLabel.Text = "FINALLY COMPLETE CORRUPTION"
 
             end
 
