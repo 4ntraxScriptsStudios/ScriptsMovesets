@@ -593,12 +593,12 @@ end
 -- ult anim
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://15285521399"
+AnimAnim.AnimationId = "rbxassetid://95000469063288"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
 
-local startTime = 0
+local startTime = 6.2
 
 
 Anim:Play()
