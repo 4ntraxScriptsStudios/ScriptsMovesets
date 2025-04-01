@@ -598,7 +598,7 @@ AnimAnim.AnimationId = "rbxassetid://95000469063288"
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
 
-local startTime = 6.2
+local startTime = 6.3
 
 
 Anim:Play()
