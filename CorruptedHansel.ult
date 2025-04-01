@@ -541,12 +541,12 @@ end
 -- SERIOUS PUNCH
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://100255267749203"
+AnimAnim.AnimationId = "rbxassetid://13376869471"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
 
-local startTime = 0.3
+local startTime = 0
 
 
 Anim:Play()
@@ -703,7 +703,7 @@ end
 -- Uppercut anim
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://17325254223"
+AnimAnim.AnimationId = "rbxassetid://17344347316"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -755,7 +755,7 @@ end
 -- Downslam anim
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://113166426814229"
+AnimAnim.AnimationId = "rbxassetid://17344348109"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -807,7 +807,7 @@ local animationIdsToStop = {
 
 local replacementAnimations = {
 
-    ["10469643643"] = "rbxassetid://13501296372",
+    ["10469643643"] = "rbxassetid://17325537719",
 
     ["10469639222"] = "rbxassetid://17325522388",
 
