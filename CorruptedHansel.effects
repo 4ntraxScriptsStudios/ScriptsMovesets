@@ -151,7 +151,6 @@ Anim:AdjustSpeed(0)
 Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1)
-
 wait(0.1)
 
     Anim:Stop()
@@ -489,12 +488,12 @@ end
 -- Wallcombo
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://18903642853"
+AnimAnim.AnimationId = "rbxassetid://16311141574"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
 
-local startTime = 0.2
+local startTime = 0
 
 
 Anim:Play()
@@ -593,7 +592,7 @@ end
 -- ult anim
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://95000469063288"
+AnimAnim.AnimationId = "rbxassetid://107649573628906"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -644,7 +643,7 @@ end
 -- Dash anim
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://17838006839"
+AnimAnim.AnimationId = "rbxassetid://135104210400610"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
