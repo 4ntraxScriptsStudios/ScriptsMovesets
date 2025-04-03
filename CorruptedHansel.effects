@@ -488,7 +488,7 @@ end
 -- Wallcombo
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://16311141574"
+AnimAnim.AnimationId = "rbxassetid://18716485513"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -498,7 +498,7 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(1.37)
+Anim:AdjustSpeed(0.45)
 
 Anim.TimePosition = startTime
 
@@ -754,7 +754,7 @@ end
 -- Downslam anim
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://17344348109"
+AnimAnim.AnimationId = "rbxassetid://18716647575"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
