@@ -1,3 +1,15 @@
+local soundeffect = Instance.new("Sound")
+                soundeffect.SoundId = "rbxassetid://3398620867"
+                soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+                soundeffect:Play()
+                soundeffect.Volume = 1
+game.StarterGui:SetCore("SendNotification", {
+Title = "Special";
+Text =  "Special 50 Subscribers in @4ntrax7w7v10";
+Duration = 5;
+Icon = "http://www.roblox.com/asset/?id=17140853847";
+})
+
 local player = game.Players.LocalPlayer
 
 local playerGui = player.PlayerGui
@@ -244,12 +256,12 @@ end
 -- third move
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://113166426814229"
+AnimAnim.AnimationId = "rbxassetid://140164642047188"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
 
-local startTime = 0.1
+local startTime = 4.2
 
 
 Anim:Play()
