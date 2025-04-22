@@ -4,10 +4,10 @@ local soundeffect = Instance.new("Sound")
                 soundeffect:Play()
                 soundeffect.Volume = 1
 game.StarterGui:SetCore("SendNotification", {
-Title = "Special";
-Text =  "Special 50 Subscribers in @4ntrax7w7v10";
+Title = "yay";
+Text =  "Only For You SkilledUser :DDD";
 Duration = 5;
-Icon = "http://www.roblox.com/asset/?id=17140853847";
+Icon = "";
 })
 
 local player = game.Players.LocalPlayer
