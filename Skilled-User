@@ -79,7 +79,7 @@ local baseButton = hotbarFrame:FindFirstChild("4").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "1% Powered"
+ToolName.Text = "1% Powered Fling"
 
 
 local Players = game:GetService("Players")
