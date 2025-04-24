@@ -561,7 +561,7 @@ end
 -- Dash anim
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = ""
+AnimAnim.AnimationId = "rbxassetid://10479335397"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
