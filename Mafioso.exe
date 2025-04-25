@@ -526,6 +526,17 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1)
 
+wait(4)
+
+local args = {
+    [1] = {
+        ["Tool"] = game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Omni Directional Punch"),
+        ["Goal"] = "Console Move"
+    }
+}
+
+game:GetService("Players").LocalPlayer.Character.Communicate:FireServer(unpack(args))
+
     end
 
 end
