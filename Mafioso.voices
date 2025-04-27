@@ -152,6 +152,11 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(0.85)
 
+    local soundeffect = Instance.new("Sound")
+                soundeffect.SoundId = "rbxassetid://97981944414502"
+                soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+                soundeffect:Play()
+                soundeffect.Volume = 1
 
     end
 
@@ -205,6 +210,12 @@ Anim:AdjustSpeed(0)
 Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1)
+
+ local soundeffect = Instance.new("Sound")
+                soundeffect.SoundId = "rbxassetid://118437725423583"
+                soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+                soundeffect:Play()
+                soundeffect.Volume = 1
 
 wait(1.9)
 
@@ -263,6 +274,11 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1.0)
 
+local soundeffect = Instance.new("Sound")
+                soundeffect.SoundId = "rbxassetid://88498119897840"
+                soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+                soundeffect:Play()
+                soundeffect.Volume = 1
 
 delay(0.8, function()
 
@@ -321,8 +337,13 @@ Anim:AdjustSpeed(0)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(1)
+    Anim:AdjustSpeed(1)
 
+local soundeffect = Instance.new("Sound")
+                soundeffect.SoundId = "rbxassetid://106484876889079"
+                soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+                soundeffect:Play()
+                soundeffect.Volume = 1
 
     end
 
