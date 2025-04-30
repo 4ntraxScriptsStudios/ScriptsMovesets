@@ -152,45 +152,6 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(0.85)
 
-local player = game.Players.LocalPlayer
-local gui = player:WaitForChild("PlayerGui")
-
--- Crear el GUI si no existe
-local screenGui = Instance.new("ScreenGui", gui)
-screenGui.Name = "SubtitleGui"
-
-local subtitleLabel = Instance.new("TextLabel", screenGui)
-subtitleLabel.Name = "SubtitleLabel"
-subtitleLabel.AnchorPoint = Vector2.new(0.5, 0.5)
-subtitleLabel.Position = UDim2.new(0.5, 0, 0.8, 0)
-subtitleLabel.Size = UDim2.new(0.8, 0, 0.1, 0)
-subtitleLabel.BackgroundTransparency = 1
-subtitleLabel.Font = "Antique"
-subtitleLabel.TextColor3 = Color3.new(1, 1, 1)
-subtitleLabel.TextStrokeTransparency = 0.5
-subtitleLabel.TextStrokeColor3 = Color3.new(0, 0, 0)
-subtitleLabel.TextScaled = true
-subtitleLabel.Text = ""
-subtitleLabel.Visible = false
-
--- Función para mostrar subtítulos
-local function showSubtitle(text, duration)
-	subtitleLabel.Text = text
-	subtitleLabel.Visible = true
-	wait(duration)
-	subtitleLabel.Visible = false
-end
-
--- Ejemplo de uso
-local subtitles = {
-	{ text = "I Love Knocking Out Teeth", duration = 3 }
-}
-
-for _, subtitle in ipairs(subtitles) do
-	showSubtitle(subtitle.text, subtitle.duration)
-	wait(0.5)
-end
-
     local soundeffect = Instance.new("Sound")
                 soundeffect.SoundId = "rbxassetid://97981944414502"
                 soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
@@ -249,45 +210,6 @@ Anim:AdjustSpeed(0)
 Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1)
-
-local player = game.Players.LocalPlayer
-local gui = player:WaitForChild("PlayerGui")
-
--- Crear el GUI si no existe
-local screenGui = Instance.new("ScreenGui", gui)
-screenGui.Name = "SubtitleGui"
-
-local subtitleLabel = Instance.new("TextLabel", screenGui)
-subtitleLabel.Name = "SubtitleLabel"
-subtitleLabel.AnchorPoint = Vector2.new(0.5, 0.5)
-subtitleLabel.Position = UDim2.new(0.5, 0, 0.8, 0)
-subtitleLabel.Size = UDim2.new(0.8, 0, 0.1, 0)
-subtitleLabel.BackgroundTransparency = 1
-subtitleLabel.Font = "Antique"
-subtitleLabel.TextColor3 = Color3.new(1, 1, 1)
-subtitleLabel.TextStrokeTransparency = 0.5
-subtitleLabel.TextStrokeColor3 = Color3.new(0, 0, 0)
-subtitleLabel.TextScaled = true
-subtitleLabel.Text = ""
-subtitleLabel.Visible = false
-
--- Función para mostrar subtítulos
-local function showSubtitle(text, duration)
-	subtitleLabel.Text = text
-	subtitleLabel.Visible = true
-	wait(duration)
-	subtitleLabel.Visible = false
-end
-
--- Ejemplo de uso
-local subtitles = {
-	{ text = "You Won't Live To See The Next Day", duration = 3 }
-}
-
-for _, subtitle in ipairs(subtitles) do
-	showSubtitle(subtitle.text, subtitle.duration)
-	wait(0.5)
-end
 
  local soundeffect = Instance.new("Sound")
                 soundeffect.SoundId = "rbxassetid://118437725423583"
@@ -351,45 +273,6 @@ Anim:AdjustSpeed(0)
 Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1.0)
-
-local player = game.Players.LocalPlayer
-local gui = player:WaitForChild("PlayerGui")
-
--- Crear el GUI si no existe
-local screenGui = Instance.new("ScreenGui", gui)
-screenGui.Name = "SubtitleGui"
-
-local subtitleLabel = Instance.new("TextLabel", screenGui)
-subtitleLabel.Name = "SubtitleLabel"
-subtitleLabel.AnchorPoint = Vector2.new(0.5, 0.5)
-subtitleLabel.Position = UDim2.new(0.5, 0, 0.8, 0)
-subtitleLabel.Size = UDim2.new(0.8, 0, 0.1, 0)
-subtitleLabel.BackgroundTransparency = 1
-subtitleLabel.Font = "Antique"
-subtitleLabel.TextColor3 = Color3.new(1, 1, 1)
-subtitleLabel.TextStrokeTransparency = 0.5
-subtitleLabel.TextStrokeColor3 = Color3.new(0, 0, 0)
-subtitleLabel.TextScaled = true
-subtitleLabel.Text = ""
-subtitleLabel.Visible = false
-
--- Función para mostrar subtítulos
-local function showSubtitle(text, duration)
-	subtitleLabel.Text = text
-	subtitleLabel.Visible = true
-	wait(duration)
-	subtitleLabel.Visible = false
-end
-
--- Ejemplo de uso
-local subtitles = {
-	{ text = "Just Shut up and Rage Quit", duration = 3 }
-}
-
-for _, subtitle in ipairs(subtitles) do
-	showSubtitle(subtitle.text, subtitle.duration)
-	wait(0.5)
-end
 
 local soundeffect = Instance.new("Sound")
                 soundeffect.SoundId = "rbxassetid://123448883378825"
@@ -455,45 +338,6 @@ Anim:AdjustSpeed(0)
 Anim.TimePosition = startTime
 
     Anim:AdjustSpeed(1)
-
-local player = game.Players.LocalPlayer
-local gui = player:WaitForChild("PlayerGui")
-
--- Crear el GUI si no existe
-local screenGui = Instance.new("ScreenGui", gui)
-screenGui.Name = "SubtitleGui"
-
-local subtitleLabel = Instance.new("TextLabel", screenGui)
-subtitleLabel.Name = "SubtitleLabel"
-subtitleLabel.AnchorPoint = Vector2.new(0.5, 0.5)
-subtitleLabel.Position = UDim2.new(0.5, 0, 0.8, 0)
-subtitleLabel.Size = UDim2.new(0.8, 0, 0.1, 0)
-subtitleLabel.BackgroundTransparency = 1
-subtitleLabel.Font = "Antique"
-subtitleLabel.TextColor3 = Color3.new(1, 1, 1)
-subtitleLabel.TextStrokeTransparency = 0.5
-subtitleLabel.TextStrokeColor3 = Color3.new(0, 0, 0)
-subtitleLabel.TextScaled = true
-subtitleLabel.Text = ""
-subtitleLabel.Visible = false
-
--- Función para mostrar subtítulos
-local function showSubtitle(text, duration)
-	subtitleLabel.Text = text
-	subtitleLabel.Visible = true
-	wait(duration)
-	subtitleLabel.Visible = false
-end
-
--- Ejemplo de uso
-local subtitles = {
-	{ text = "You're Mine!", duration = 3 }
-}
-
-for _, subtitle in ipairs(subtitles) do
-	showSubtitle(subtitle.text, subtitle.duration)
-	wait(0.5)
-end
 
 local soundeffect = Instance.new("Sound")
                 soundeffect.SoundId = "rbxassetid://76334540406606"
@@ -706,52 +550,13 @@ Anim.TimePosition = startTime
 
 Anim:AdjustSpeed(1)
 
-local player = game.Players.LocalPlayer
-local gui = player:WaitForChild("PlayerGui")
-
--- Crear el GUI si no existe
-local screenGui = Instance.new("ScreenGui", gui)
-screenGui.Name = "SubtitleGui"
-
-local subtitleLabel = Instance.new("TextLabel", screenGui)
-subtitleLabel.Name = "SubtitleLabel"
-subtitleLabel.AnchorPoint = Vector2.new(0.5, 0.5)
-subtitleLabel.Position = UDim2.new(0.5, 0, 0.8, 0)
-subtitleLabel.Size = UDim2.new(0.8, 0, 0.1, 0)
-subtitleLabel.BackgroundTransparency = 1
-subtitleLabel.Font = "Antique"
-subtitleLabel.TextColor3 = Color3.new(1, 1, 1)
-subtitleLabel.TextStrokeTransparency = 0.5
-subtitleLabel.TextStrokeColor3 = Color3.new(0, 0, 0)
-subtitleLabel.TextScaled = true
-subtitleLabel.Text = ""
-subtitleLabel.Visible = false
-
--- Función para mostrar subtítulos
-local function showSubtitle(text, duration)
-	subtitleLabel.Text = text
-	subtitleLabel.Visible = true
-	wait(duration)
-	subtitleLabel.Visible = false
-end
-
--- Ejemplo de uso
-local subtitles = {
-	{ text = "Your Humanoid Don't Have Chance Against Mine", duration = 3 }
-}
-
-for _, subtitle in ipairs(subtitles) do
-	showSubtitle(subtitle.text, subtitle.duration)
-	wait(0.5)
-end
-
 local soundeffect = Instance.new("Sound")
                 soundeffect.SoundId = "rbxassetid://100340156582123"
                 soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
                 soundeffect:Play()
                 soundeffect.Volume = 1
 
-wait(1.5)
+wait(1.3)
 
 local args = {
     [1] = {
